@@ -79,6 +79,15 @@ NOTE: A class can implement multiple interfaces but can extend only one class.
 |Can be instantiated? |❌ No | ❌ No|
 |Supports multiple inheritance? |✅ Yes (multiple interfaces) | ❌ No (only one abstract class)|
 
+## Difference in Type and Interface
+| Feature | `type` 🔥 | `interface` 📝 |
+|--|--|--|
+| Can define primitive variables? | ✅ Yes | ❌ No |
+| Can define objects? | ✅ Yes | ✅ Yes |
+| Can define unions? | ✅ Yes `|` | ❌ No |
+| Can define intersections? | ✅ Yes `&` | ✅ Yes `extends` |
+| Can be implemented by a class? | ❌ No | ✅ Yes |
+
 
 ## Pick
 It can be used if we want to create a subset of from an object interface or type
